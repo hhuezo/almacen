@@ -1,0 +1,127 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>inicio</title>
+        <style type="text/css">
+            * {
+                padding:0px;
+                margin:0px;
+            }
+
+            #header{
+                width:100%;
+                font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif, cursive;
+                margin: auto;
+            }
+
+            ul, ol{list-style:none;}
+
+            .nav li a{
+                background-color:#DDD;
+                color:#00E;
+                text-decoration:none;
+                padding:10px 15px;
+                display:block;
+            }
+
+            .nav li a:hover {
+                background-color:#EEE;
+
+            }
+
+
+
+            .nav > li{
+                float:left;
+
+            }
+
+            .nav li ul{
+                display:none;
+                position:absolute;
+                min-width:140px;
+            }
+
+            .nav li:hover > ul{
+                display:block;
+            }
+
+            .nav li ul li{
+                position:relative;
+            }
+
+            .nav li ul li ul{
+                right:20%;
+                top:0px;
+            }
+
+
+        </style>
+        <link rel="stylesheet" href="css/style_form.css" />
+    </head>
+    <body>
+        <center>
+            <table>
+                <tr><td ></td>
+                    <td>
+
+                        <div id="header">
+                            <ul class="nav">
+
+                                <li><a href="">CATALOGOS</a>
+                                    <ul>
+                                        <li><a href="catalogo/catalogo_articulos.php">ARTICULO</a></li>
+                                        <li><a href="catalogo/catalogo_proveedores.php">PROVEEDOR</a></li>
+                                        <li><a href="catalogo/catalogo_departamentos.php">DEPARTAMENTO</a></li>
+                                        <li><a href="catalogo/catalogo_autos.php">AUTOMOVIL</a></li>
+                                        <li><a href="catalogo/catalogo_descargo.php">DESCARGO</a></li>
+                                        <li><a href="catalogo/catalogo_orden.php">ORDEN DE COMPRA</a></li>
+                                    </ul>
+                                </li>   
+                                <li><a href="">KARDEX</a><ul>
+                                        <li><a href="entrada_articulo.php">ENTRADA DE ARTICULO</a></li>
+                                        <li><a href="salida_articulo.php">SALIDA DE ARTICULO</a></li>
+                                        <li><a href="salida_repuesto.php">SALIDA DE REPUESTOS</a></li>
+                                        <li><a href="historial_articulo.php">KARDEX DE PRODUCTO</a></li>				
+                                    </ul>
+                                </li>
+
+                                <li><a href="">CONSULTAS</a>
+                                    <ul>
+                                        <li><a href="buscar_descargo.php">DESCARGO</a></li>
+                                        <li><a href="buscar_ordencompra.php">ORDEN DE COMPRA</a></li>
+                                        <li><a href="historial_vehiculo.php">HISTORIAL VEHICULO</a></li>
+                                    </ul></li>
+                                <li><a href="">REPORTES</a>
+                                    <ul>
+                                        <li><a href="reportes/reporte_acta.php">ACTA DE RECEPCION</a></li>
+                                        <li><a href="reporte_liquidacion.php">LIQUIDACION</a></li>
+                                        <li><a href="reporte_oficina.php">REPORTE POR OFICINA</a></li>
+                                        <li><a href="reporte_oficinas.php">REPORTE GASTOS OFICINAS</a></li>
+                                        <li><a href="reporte_oficinas_cuentas.php">GASTOS OFICINAS CUENTA CONTABLE</a></li>
+                                        <li><a href="reporteGastoVehiculo.php">REPORTE GASTOS POR VEHICULOS</a></li>
+                                        <li><a href="reporte_inventario.php">INVENTARIO</a></li>     
+                                    </ul></li>		
+                                <li><a href="logout.php">SALIR</a>
+                            </ul>
+                            </li>   
+
+                        </div>
+
+                    </td>
+                </tr>
+                <tr><td height="462" colspan="3">
+                        <center>
+                            <img src="img/logo.png" width="391" height="263">
+                        </center>
+                    </td>
+                </tr>
+            </table>
+
+        </center>	
+    </body>
+
+
+</html>

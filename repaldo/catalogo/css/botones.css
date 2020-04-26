@@ -1,0 +1,33 @@
+
+/* boton */
+/*a { margin: 1em 0; float: left; clear: left; }*/
+a.enlaceboton {
+   text-decoration: none;
+   background: #EEE;
+   color: #222;
+   border: 1px outset #CCC;
+   padding: .1em .5em;
+}
+a.enlaceboton:hover {
+   background: #CCB;
+}
+a.enlaceboton:active {
+   border: 1px inset #000;
+}
+
+
+/* boton imagen */
+/*a { margin: 1em 0; float: left; clear: left; }*/
+a.enlacebotonimagen {
+   text-decoration: none;
+   background: #EEE;
+   color: #222;
+   border: 1px outset #CCC;
+   padding: .1em .5em;
+}
+a.enlacebotonimagen:hover {
+   background: #CCB;
+}
+a.enlacebotonimagen:active {
+   border: 1px inset #000;
+}

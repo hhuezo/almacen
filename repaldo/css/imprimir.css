@@ -1,0 +1,29 @@
+input { font-family: Tahoma, Verdana, Arial; font-size: 11px; color: #000000; background-color: #ffffff; border: #000099; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+tr { font-family: Tahoma, Verdana, Arial; font-size: 11px; color: #000000; background-color: #ffffff}
+td { font-family: Tahoma, Verdana, Arial; font-size: 11px; color: #000000; background-color: #ffffff}
+
+/* enlace boton */
+.enlaceboton {    font-family: verdana, arial, sans-serif;
+    font-size: 7.5pt;
+    font-weight: bold;
+    padding: 2px;
+    background-color: #f0f0f0;
+    color: #666666;
+    text-decoration: none;
+}
+.enlaceboton:link,
+.enlaceboton:visited {
+    border-top: 1px solid #cccccc;
+    border-bottom: 2px solid #666666;
+    border-left: 1px solid #cccccc;
+    border-right: 2px solid #666666;
+}
+.enlaceboton:hover {
+    border-bottom: 1px solid #cccccc;
+    border-top: 2px solid #666666;
+    border-right: 1px solid #cccccc;
+    border-left: 2px solid #666666;
+}
+
+
+
